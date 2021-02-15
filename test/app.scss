@@ -1,0 +1,13 @@
+@use '@snug/core' with (
+  $breakpoints: (
+    's': 640px,
+    'm': 768px,
+    'l': 1024px,
+  ),
+);
+
+@use '../index' as *;
+
+@include spacing();
+@include display();
+@include flex();

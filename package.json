@@ -1,0 +1,18 @@
+{
+  "name": "@snug/modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.scss",
+  "scripts": {
+    "watch": "npx sass --load-path=node_modules --watch --no-source-map test/app.scss test/app.css",
+    "build": "npx sass --load-path=node_modules --no-source-map test/app.scss test/app.css"
+  },
+  "author": "Lukas Kleinschmidt <kleinschmidt@eatersvz.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@snug/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.7"
+  }
+}

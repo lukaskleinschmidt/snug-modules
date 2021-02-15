@@ -1,0 +1,15 @@
+@forward './display' show display;
+@forward './flex' show flex;
+@forward './spacing' show spacing;
+
+// @mixin display($args...) {
+//   @include display-display($args...);
+// }
+
+// @mixin flex($args...) {
+//   @include flex-flex($args...);
+// }
+
+// @mixin spacing($args...) {
+//   @include spacing-spacing($args...);
+// }

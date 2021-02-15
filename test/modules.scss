@@ -1,0 +1,13 @@
+@use '../index' as * with (
+  $display-options: (
+    'block': block,
+    'flex': flex,
+  )
+);
+
+@include display-create($options: (
+  'table': table,
+));
+
+@include flex-create();
+@include spacing-create();
