@@ -1,16 +1,24 @@
 {
   "name": "@snug/modules",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "",
   "main": "index.scss",
   "scripts": {
     "watch": "npx sass --load-path=node_modules --watch --no-source-map test/app.scss test/app.css",
     "build": "npx sass --load-path=node_modules --no-source-map test/app.scss test/app.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaskleinschmidt/snug-modules.git"
+  },
   "author": "Lukas Kleinschmidt <kleinschmidt@eatersvz.de>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukaskleinschmidt/snug-modules/issues"
+  },
+  "homepage": "https://github.com/lukaskleinschmidt/snug-modules#readme",
   "dependencies": {
-    "@snug/core": "^1.0.0"
+    "@snug/core": "^1.0.0-rc.0"
   },
   "devDependencies": {
     "sass": "^1.32.7"

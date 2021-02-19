@@ -43,9 +43,8 @@ spacing | `@include spacing()`
 ```
 
 
-## Advanced Usage
+## Overriding Defaults
 ```scss
-// Override defaults
 @use '@snug/modules/display' as * with (
   $variants: (),
   $options: (
@@ -54,12 +53,16 @@ spacing | `@include spacing()`
   ),
 );
 
-// Extend defaults
+@include display('responsive');
+
+```
+
+## Extending Defaults
+```scss
+@use '@snug/modules/display' as *;
+
 @include display('responsive', (
   'table': table,
 ));
 
 ```
-
-
-## Performance
