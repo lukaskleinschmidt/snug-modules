@@ -116,7 +116,7 @@ $default-options: () !default;
       }
     }
 
-    .-ml {
+    .ml {
       @include options($margin, $props...) using ($value) {
         margin-left: $value;
       }
